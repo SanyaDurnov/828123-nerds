@@ -7,34 +7,44 @@
   <body>
    <header class="main-header">
     <nav class="main-nav">
-      <a class="main-header-logo">
+      <a href="index.html" class="main-header-logo">
        <img src="http://placehold.it/150x100" alt="Логотип nerds">
      </a>
-      <ul class="header-menu-navigation">
-        <li><a href="studio.html">Студия</a>
-        <li><a href="clients.html">Клиенты</a>
-        <li><a href="store.html">Магазин</a>
-        <li><a href="contacts.html">Контакты</a>
-        <li><a href="cart.html">Корзина</a>
-      </ul>
-      <ul class="header-usermenu-navigation">
-        <li class="login-link">Вход</li>
-      </ul>
-    </nav>
+        <a href="#">Студия</a>
+        <a href="#">Клиенты</a>
+        <a href="store.html">Магазин</a>
+        <a href="#">Контакты</a>
+        <a href="#">Корзина</a>
+        <a class="login-link" href="#"><img src="http://placehold.it/10x10" alt="Корзина">Вход</a>
+     </nav>
 
-    <section class="marketing-info">
-     <h1 class="marketing_text">Долго, дорого, скурпулезно.</h1>
-     <p class="marketing_text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
-     <a class="button" href="studio.html">Узнать больше</a><br>
-     <img src="http://placehold.it/150x100" alt="картинка Телефоны">
-   </section>
+   <section class="marketing-info">
+     <div class="slider">
+      <h1 class="marketing_text">Долго, дорого, скурпулезно.</h1>
+      <p class="marketing_text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</p>
+      <a class="button" href="studio.html">Узнать больше</a><br>
+      <img src="http://placehold.it/150x100" alt="картинка Телефоны">
+     </div>
 
-  </header>
+     <div class="slider">
+      <h1 class="marketing_text">Любим математику как никто другой.</h1>
+      <p class="marketing_text">Никакого креатива только математические формулы для рассчета идеальных пропорций.</p>
+      <a class="button" href="studio.html">Узнать больше</a><br>
+      <img src="http://placehold.it/150x100" alt="картинка Компьютеры">
+     </div>
 
+     <div class="slider">
+      <h1 class="marketing_text">Только ночь, толко хардкор.</h1>
+      <p class="marketing_text">Работать днем как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+      <a class="button" href="studio.html">Узнать больше</a><br>
+      <img src="http://placehold.it/150x100" alt="картинка планшет и телефон">
+     </div>
+  </section>
+</header>
 
   <main class="container">
 
-    <section class="offers">
+   <section class="offers">
      <ul class="offers_list">
 
        <li class="offer_item">
@@ -61,63 +71,65 @@
    </section>
 
    <section class="about_us">
-     <h2>Мы - маленькая, но гордая дизайн-студия из Краснодара.</h2>
+     <strong>Мы - маленькая, но гордая дизайн-студия из Краснодара.</strong>
      <p>Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
      <p class="about_us_text">Выполняем заказы на разработку:<p>
-
-     <ul class="zakazi_list">
-       <li class="zakazi_item">Веб-сайтов любой сложности</li>
-       <li class="zakazi_item">Мобильных приложений для IOS и Android</li>
-       <li class="zakazi_item">Слайдшоу и видео для корпоративных презентаций</li>
+    <ul class="order_list">
+       <li class="order_item">Веб-сайтов любой сложности</li>
+       <li class="order_item">Мобильных приложений для IOS и Android</li>
+       <li class="order_item">Слайдшоу и видео для корпоративных презентаций</li>
      </ul>
 
     <img src="http://placehold.it/100x100" alt="Логотип студии Нердс">
     <p class="about_us_text">C 2004 года любим точность во всем:<p>
-
-    <dl class="history_event">
-      <dt class="history_event_name">146%<dt>
-      <dd class="history_event_about">Уровень самоотдачи<dd>
-
-      <dt class="history_event_name">100%<dt>
-      <dd class="history_event_about">Сроков<dd>
-
-      <dt class="history_event_name">50%<dt>
-      <dd class="history_event_about">Минимальная предоплата<dd>
-    </dl>
-
-
+    <table class="history_events">
+      <tr class="history_event_percentage">
+        <th>146%</th>
+        <th>100%</th>
+        <th>50%</th>
+      </tr>
+      <tr class="history_event_about">
+        <td>Уровень самоотдачи</td>
+        <td>Сроков</td>
+        <td>Минимальная предоплата</td>
+      </tr>
+     </table>
     <div class="partners">
-     <img src="http://placehold.it/100x100" alt="Лого HtmlAcademy">
-     <img src="http://placehold.it/100x100" alt="Лого Borodinskiy">
-     <img src="http://placehold.it/100x100" alt="Лого Pink">
-     <img src="http://placehold.it/100x100" alt="Лого Mishka">
+     <ul class="partners_list">
+      <li class="partners_item"><a href="#" ><img src="http://placehold.it/100x100" alt="Лого HtmlAcademy"></a></li>
+      <li class="partners_item"><a href="#" ><img src="http://placehold.it/100x100" alt="Лого Borodinskiy"></a></li>
+      <li class="partners_item"><a href="#" ><img src="http://placehold.it/100x100" alt="Лого Pink"></a></li>
+      <li class="partners_item"><a href="#" ><img src="http://placehold.it/100x100" alt="Лого Mishka"></a></li>
+     </ul>
     </div>
+  </section>
+</main>
 
+  <section class="contacts_main">
    <div class="contacts">
     <p>Nerds Design studio<br>
      191185, Санкт-Петербург, ул. Б. Конюшечная, д. 19/8<br>
      тел. +7(812)275-75-75
     </p>
-    <a class="button" href="#">НАПИШИТЕ НАМ</a>
+    <a class="button" href="#">Напишите нам</a>
    </div>
 
    <div class="map">
      <img src="http://placehold.it/1000x300" alt="Карта Nerds">
    </div>
+  </section>
 
-</section>
-</main>
-
- <footer class="main-footer">
+  <footer class="main-footer">
    <div class="footer-social">
      <a class="button_vk" href="#">vk</a>
      <a class="button_f" href="#">facebook</a>
      <a class="button_instagram" href="#">instagram</a>
    </div>
    <div class="footer-text">
-     <h2>Давайте дружить, это выгодно!</h2>
+     <strong>Давайте дружить, это выгодно!</strong>
      <p>Скидка 10% для друзей из социальных сетей</p>
    </div>
+ </footer>
 
   </body>
 </html>
