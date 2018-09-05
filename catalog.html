@@ -5,16 +5,16 @@
     <title>HTML Academy: Нёрдс</title>
   </head>
   <body>
-    <header class="main-header">
-      <nav class="main-nav">
-        <a href="index.html" class="main-header-logo"><img src="img/nerds-logo.svg" alt="Логотип nerds"></a>
+    <header class="main_header">
+      <nav class="main_nav">
+        <a href="index.html" class="main_header_logo"><img src="img/nerds-logo.svg" alt="Логотип nerds"></a>
         <a href="#">Студия</a>
         <a href="#">Клиенты</a>
         <a href="store.html">Магазин</a>
         <a href="#">Контакты</a>
-        <a class="login-link" href="#"><img src="img/cart-icon.svg" alt="Корзина">Корзина</a>
+        <a class="login_link" href="#"><img src="img/cart-icon.svg" alt="Корзина">Корзина</a>
       </nav>
-      <section class="marketing-info">
+      <section class="marketing_info">
         <h1 class="marketing_text">Магазин готовых шаблонов</h1>
       </section>
       </header>
@@ -31,43 +31,46 @@
         <fieldset>
           <legend>Сетка:</legend>
           <ul>
-            <li class="visually-hidden filter-input filter-input-radio" name="Adaptive" id="Adaptive_filter" checked>
-              <label for="Adaptive_filter">Адаптивная</label>
+            <li class="visually_hidden filter_input filter_input_radio" name="adaptive" id="adaptive_filter" checked>
+              <label for="adaptive_filter">Адаптивная</label>
+              <input class="visually_hidden filter_input filter_input_radio" type="radio" name="grid_type" value="adaptive" id="adaptive_filter">
             </li>
-            <li class="visually-hidden filter-input filter-input-radio" name="Fixed" id="Fixed_filter" checked>
-              <label for="Fixed_filter">Фиксированная</label>
+            <li class="visually_hidden filter_input filter_input_radio" name="fixed" id="fixed_filter" checked>
+              <label for="fixed_filter">Фиксированная</label>
+              <input class="visually_hidden filter_input filter_input_radio" type="radio" name="grid_type" value="fixed" id="fixed_filter">
             </li>
-            <li class="visually-hidden filter-input filter-input-radio" name="Rubber" id="Rubber_filter" checked>
-              <label for="Rubber_filter">Резиновая</label>
+            <li class="visually_hidden filter_input filter_input_radio" name="rubber" id="rubber_filter" checked>
+              <label for="rubber_filter">Резиновая</label>
+              <input class="visually_hidden filter_input filter_input_radio" type="radio" name="grid_type" value="rubber" id="rubber_filter">
             </li>
           </ul>
         </fieldset>
         <fieldset>
           <legend>Особенности:</legend>
           <ul>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slide" id="slide_filter" checked>
+            <li class="filter_option">
+              <input class="visually_hidden filter_input filter_input-checkbox" type="checkbox" name="slide" id="slide_filter" checked>
                <label for="slide_filter">Слайдер</label>
              </li>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage_block" id="advantage_block_filter">
+            <li class="filter_option">
+              <input class="visually_hidden filter_input filter_input-checkbox" type="checkbox" name="advantage_block" id="advantage_block_filter">
               <label for="advantage_block_filter">Блок преимуществ</label>
             </li>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="news_filter" checked>
+            <li class="filter_option">
+              <input class="visually_hidden filter_input filter_input-checkbox" type="checkbox" name="news" id="news_filter" checked>
               <label for="news_filter">Новости</label>
             </li>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="gallery_filter">
+            <li class="filter_option">
+              <input class="visually_hidden filter_input filter_input-checkbox" type="checkbox" name="gallery" id="gallery_filter">
               <label for="gallery_filter">Галерея</label>
             </li>
-            <li class="filter-option">
-              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="cart_filter">
+            <li class="filter_option">
+              <input class="visually_hidden filter_input filter_input_checkbox" type="checkbox" name="cart" id="cart_filter">
               <label for="cart_filter">Корзина</label>
             </li>
           </ul>
         </fieldset>
-        <button type="submit" class="filter-button button">Показать</button>
+        <button type="submit" class="filter_button button">Показать</button>
       </form>
       <p class="text">Стоимость:</p>
       <!-- Здесьбудет форма -->
@@ -123,7 +126,7 @@
       </ul>
     </section>
 
-      <ul class="pagination-list">
+      <ul class="pagination_list">
         <li class="pagination_item"><a>1</a></li>
         <li class="pagination_item"><a href="#">2</a></li>
         <li class="pagination_item"><a href="#">3</a></li>
@@ -145,13 +148,13 @@
     </section>
     </main>
 
-    <footer class="main-footer">
-      <div class="footer-social">
+    <footer class="main_footer">
+      <div class="footer_social">
         <a class="button_vk" href="#"><img src="img/vk-icon.svg" alt="Лого Вконтакте"></a>
         <a class="button_f" href="#"><img src="img/fb-icon.svg" alt="Лого Facebook"></a>
         <a class="button_instagram" href="#"><img src="img/insta-icon.svg" alt="Лого Instagram"></a>
       </div>
-      <div class="footer-text">
+      <div class="footer_text">
         <strong>Давайте дружить, это выгодно!</strong>
         <p>Скидка 10% для друзей из социальных сетей</p>
       </div>
