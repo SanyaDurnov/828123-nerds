@@ -14,13 +14,61 @@
         <a href="#">Контакты</a>
         <a class="login-link" href="#"><img src="img/cart-icon.svg" alt="Корзина">Корзина</a>
       </nav>
-    <section class="marketing-info">
-      <h1 class="marketing_text">Магазин готовых шаблонов</h1>
-    </section>
-    </header>
+      <section class="marketing-info">
+        <h1 class="marketing_text">Магазин готовых шаблонов</h1>
+      </section>
+      </header>
 
     <main class="container">
     <section class="filters">
+      <form class="filter" metod="get" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Стоимость:</legend>
+          <!--<input type="range" min="0" max="20000" step="5000" value="15000" name="price" id="price_filter">
+          <label for="price_filter">От</label>
+          <output name="min_price" value="price.value">-->
+        </fieldset>
+        <fieldset>
+          <legend>Сетка:</legend>
+          <ul>
+            <li class="visually-hidden filter-input filter-input-radio" name="Adaptive" id="Adaptive_filter" checked>
+              <label for="Adaptive_filter">Адаптивная</label>
+            </li>
+            <li class="visually-hidden filter-input filter-input-radio" name="Fixed" id="Fixed_filter" checked>
+              <label for="Fixed_filter">Фиксированная</label>
+            </li>
+            <li class="visually-hidden filter-input filter-input-radio" name="Rubber" id="Rubber_filter" checked>
+              <label for="Rubber_filter">Резиновая</label>
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Особенности:</legend>
+          <ul>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slide" id="slide_filter" checked>
+               <label for="slide_filter">Слайдер</label>
+             </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantage_block" id="advantage_block_filter">
+              <label for="advantage_block_filter">Блок преимуществ</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="news_filter" checked>
+              <label for="news_filter">Новости</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="gallery" id="gallery_filter">
+              <label for="gallery_filter">Галерея</label>
+            </li>
+            <li class="filter-option">
+              <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="cart" id="cart_filter">
+              <label for="cart_filter">Корзина</label>
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit" class="filter-button button">Показать</button>
+      </form>
       <p class="text">Стоимость:</p>
       <!-- Здесьбудет форма -->
     </section>

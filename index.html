@@ -6,7 +6,7 @@
   </head>
   <body>
     <header class="main-header">
-      <h1 hidden>"Дизайн студия Nerds"</h1>
+      <h1 visually-hidden>"Дизайн студия Nerds"</h1>
       <nav class="main-nav">
         <a href="index.html" class="main-header-logo"><img src="img/nerds-logo.svg" alt="Логотип nerds"></a>
         <a href="#">Студия</a>
@@ -35,6 +35,9 @@
         <a class="button" href="studio.html">Узнать больше</a>
         <img src="img/slide3.png" alt="картинка планшет и телефон">
       </div>
+      <button class="Slide_btn" type="button"></button>
+      <button class="Slide_btn" type="button"></button>
+      <button class="Slide_btn" type="button"></button>
     </section>
     </header>
 
@@ -110,6 +113,25 @@
         <img src="img/map-marker.png" alt="Маркер на карте Nerds">
       </div>
     </section>
+
+    <section class="Write_us">
+      <h2>Напишите нам</h2>
+      <form class="Write_us_form" action="https://echo.htmlacademy.ru" metod="post">
+        <p class="Write_us_item">
+          <label for="fio_item">Ваше имя</label>
+          <input type="text" id="fio_item" name="fio" value="" placeholder="Имя Фамилия">
+        </p>
+        <p class="Write_us_item">
+          <label for="email_item">Ваш e-mail:</label>
+          <input type="email" id="email_item" name="email" value="" placeholder="email@example.com">
+        </p>
+        <p class="Write_us_item">
+          <label for="letter_tex_item">Текст письма:</label>
+          <input type="text" id="letter_tex_item" name="letter_text" value="" placeholder="Текс письма">
+        </p>
+        <button class="button" type="submit">Отправить</button>
+      </form>
+
     </main>
 
     <footer class="main-footer">
