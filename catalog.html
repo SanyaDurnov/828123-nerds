@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <header class="main_header">
@@ -34,17 +34,17 @@
         <fieldset>
           <legend>Сетка:</legend>
           <ul>
-            <li class="visually_hidden filter_input filter_input_radio">
+            <li class="filter_input filter_input_radio">
               <label for="adaptive_filter">Адаптивная</label>
-              <input class="visually_hidden filter_input filter_input_radio" type="radio" name="grid_type" value="adaptive" id="adaptive_filter" checked>
+              <input class="filter_input filter_input_radio" type="radio" name="grid_type" value="adaptive" id="adaptive_filter" checked>
             </li>
-            <li class="visually_hidden filter_input filter_input_radio">
+            <li class="filter_input filter_input_radio">
               <label for="fixed_filter">Фиксированная</label>
-              <input class="visually_hidden filter_input filter_input_radio" type="radio" name="grid_type" value="fixed" id="fixed_filter">
+              <input class="filter_input filter_input_radio" type="radio" name="grid_type" value="fixed" id="fixed_filter">
             </li>
-            <li class="visually_hidden filter_input filter_input_radio">
+            <li class="filter_input filter_input_radio">
               <label for="rubber_filter">Резиновая</label>
-              <input class="visually_hidden filter_input filter_input_radio" type="radio" name="grid_type" value="rubber" id="rubber_filter">
+              <input class="filter_input filter_input_radio" type="radio" name="grid_type" value="rubber" id="rubber_filter">
             </li>
           </ul>
         </fieldset>
@@ -73,18 +73,16 @@
             </li>
           </ul>
         </fieldset>
-        <button type="submit" class="filter_button button">Показать</button>
+        <button type="submit" class="filter_button">Показать</button>
       </form>
-      <p class="text">Стоимость:</p>
-      <!-- Здесьбудет форма -->
     </section>
 
     <section class="catalog">
       <div class="sort_menu">
         <p class="text">Сортировать:</p>
-        <a class="sort_btn">По цене</a>
-        <a class="sort_btn">По типу</a>
-        <a class="sort_btn">По названию</a>
+        <a class="sort_btn" href="#" >По цене</a>
+        <a class="sort_btn" href="#">По типу</a>
+        <a class="sort_btn" href="#">По названию</a>
         <a class="sort_btn" title="Сортировка по возрастанию"><p class="visually_hidden">Сортировка по возрастанию</p></a>
         <a class="sort_btn" title="Сортировка по убыванию" ><p class="visually_hidden">Сортировка по убыванию</p></a>
       </div>
@@ -130,7 +128,7 @@
     </section>
 
       <ul class="pagination_list">
-        <li class="pagination_item"><a>1</a></li>
+        <li class="pagination_item"><a href="#">1</a></li>
         <li class="pagination_item"><a href="#">2</a></li>
         <li class="pagination_item"><a href="#">3</a></li>
         <li class="pagination_item"><a href="#">Следующая</a></li>

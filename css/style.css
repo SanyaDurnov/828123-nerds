@@ -1,0 +1,248 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  background-color: #FFFFFF;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.main_nav {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #eeeeee;
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.main_nav a:visited {
+  color: #bdbdbd;
+}
+
+.main_nav a:focus {
+  color: #000000;
+  border-bottom: 2px solid #fb565a;
+}
+
+.main_nav a:hover {
+  color: #fb565a;
+}
+
+.marketing_info {
+  background-color: #eeeeee;
+}
+.marketing_info h2 {
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.button {
+  width: 240px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 18px;
+  color: white;
+  background-color: #fb565a;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #e74246;
+}
+
+.button:active {
+  background-color: #d7373b;
+  color: #e37376;
+}
+
+.catalog_item .button:active {
+  color: white;
+}
+
+.Slide_btn {
+
+}
+
+.offers h2 {
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.offers li:nth-child(2) .button {
+background-color: #00ca74;
+}
+
+.offers li:nth-child(2) .button:hover {
+background-color: #00bc6c;
+}
+
+.offers li:nth-child(2) .button:active {
+background-color: #00aa62;
+color: #4dc491;
+}
+
+.offers li:last-child .button {
+background-color: #efc84a;
+}
+
+.offers li:last-child .button:hover {
+background-color: #eab534;
+}
+
+.offers li:last-child .button:active {
+background-color: #e5a722;
+color: #edc265;
+}
+
+.about_us strong {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+.about_us_text {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.history_event_percentage {
+  font-size: 45px;
+  line-height: 10.06px;
+}
+
+.history_event_about {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.partners_item {
+  color: #cccccc;
+}
+
+.main_footer svg {
+  color: red;
+}
+
+.contact_name {
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.write_us h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
+
+input {
+  border-color: #d7dcde;
+}
+
+input:hover {
+  order-color: #b4b9bb;
+}
+
+input:focus {
+  border-color: #000000;
+}
+
+input:invalid {
+  border-color: #e74246;
+}
+
+.close_btn {
+
+}
+
+.filter_button {
+  background-color: #eeeeee;
+  color: #000000;
+}
+
+.filter_button:hover {
+  background-color: #dfdfdf;
+}
+
+.filter_button:active {
+  background-color: #d5d5d5;
+  color: #959595;
+}
+
+.write_us_form label {
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.main_footer strong {
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.main_footer p {
+  font-size: 16px;
+  line-height: 22px;
+
+}
+
+.marketing_info h1 {
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.container {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.catalog p {
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.sort_menu a {
+  font-size: 14px;
+  line-height: 18px;
+  color: #bdbdbd;
+}
+
+.sort_menu a:focus {
+  color: #000000;
+}
+
+.sort_menu a:hover {
+  color: #8d8d8d;
+}
+
+.pagination_item {
+  font-size: 16px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.pagination_item:hover {
+  background-color: #dfdfdf;
+}
+
+.pagination_item:active {
+  color: #c1c1c1;
+  background-color: #d5d5d5;
+}
+
+.visually_hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
